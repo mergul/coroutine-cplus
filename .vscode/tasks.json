@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "g++-11",
+            "args": [
+                "-std=c++20",
+                "-fcoroutines",
+                "-pthread",
+                "-I/home/mesut/CLionProjects/cppcoro/include/",
+                "-L/home/mesut/CLionProjects/cppcoro/build/lib/",
+                "-I/home/mesut/liburing/src/include/",
+                "-L/home/mesut/liburing/src/",
+                "-Wall",
+                "-O2",
+                "-D_GNU_SOURCE",
+                "-luring",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: /usr/bin/g++-11"
+        }
+    ]
+}

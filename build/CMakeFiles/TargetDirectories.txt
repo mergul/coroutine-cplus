@@ -1,0 +1,3 @@
+/home/mesut/CLionProjects/testIt/build/CMakeFiles/rebuild_cache.dir
+/home/mesut/CLionProjects/testIt/build/CMakeFiles/edit_cache.dir
+/home/mesut/CLionProjects/testIt/build/CMakeFiles/testIt.dir

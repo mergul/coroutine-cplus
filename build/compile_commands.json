@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mesut/CLionProjects/testIt/build",
+  "command": "/bin/x86_64-linux-gnu-g++-11 -g -std=gnu++2a -o CMakeFiles/testIt.dir/main.cpp.o -c /home/mesut/CLionProjects/testIt/main.cpp",
+  "file": "/home/mesut/CLionProjects/testIt/main.cpp"
+}
+]
